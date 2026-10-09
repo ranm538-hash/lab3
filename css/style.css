@@ -134,5 +134,19 @@ footer {
         grid-template-columns: 220px 1fr;
 
     }
+    .main-content {
+        padding: 0px 20px 0px 0px;
+
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .card-featured {
+        grid-column: 1/-1;
+
+    }
     
 }
